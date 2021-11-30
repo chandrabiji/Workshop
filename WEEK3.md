@@ -1,6 +1,6 @@
 Week #3: Course Materials
   * Java
-  * JDBI
+  * JDBI / Hibernate / Any ORM Tool
   * Maven
 
 The primary objective of week #3 is to complete the Cli fully to list all Menu /Ordering the food/accept/cancel canteenmanagement applications.
