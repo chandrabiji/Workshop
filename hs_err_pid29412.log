@@ -1,0 +1,32 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (./src/hotspot/share/memory/allocation.cpp:46), pid=29412, tid=42896
+#
+# JRE version:  (11.0.10+9) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.10+9, mixed mode, tiered, compressed oops, parallel gc, windows-amd64)
+# Core dump will be written. Default location: c:\Users\55596\Workspace\MLP323\hs_err_pid29412.mdmp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: --add-modules=ALL-SYSTEM --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -DwatchParentProcess=false -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xverify:none c:\Users\55596\.vscode\extensions\redhat.java-0.76.0\server\plugins\org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar -configuration c:\Users\55596\AppData\Roaming\Code\User\globalStorage\redhat.java\0.76.0\config_win -data c:\Users\55596\AppData\Roaming\Code\User\workspaceStorage\f569130ac9909862f007f5585d90926a\redhat.java\jdt_ws
+
+Host: Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz, 8 cores, 31G,  Windows Server 2019 , 64 bit Build 18362 (10.0.18362.329)

@@ -1,0 +1,67 @@
+-- creating Database
+create database MLP323;
+
+
+
+
+CREATE TABLE `mlp323`.`foodmenu` (
+  `FOOD_ID` INT NOT NULL,
+  `FOOD_NAME` VARCHAR(45) NULL,
+  `FOOD_QTY` INT NULL,
+  `FOOD_PRICE` DOUBLE NULL,
+  `VENDOR_ID` INT NULL,
+  PRIMARY KEY (`FOOD_ID`));
+
+
+
+  
+
+
+
+
+  
+
+-- Creating Customer table
+
+CREATE TABLE `mlp323`.`customer` (
+  `CUST_ID` INT NOT NULL,
+  `CUST_NAME` VARCHAR(45) NULL,
+  `CUST_EMAIL` VARCHAR(45) NULL,
+  `CUST_ADDRESS` VARCHAR(45) NULL,
+  `CUST_MOBILENO` VARCHAR(45) NULL,
+  `CUST_PASSWORD` VARCHAR(45) NULL,
+  `CUST_WALLET_NAME` VARCHAR(45) NULL,
+  `CUST_WALLET_AMOUNT` DOUBLE NULL,
+  PRIMARY KEY (`CUST_ID`));
+
+--Creating vendor table 
+CREATE TABLE `mlp323`.`VENDOR` (
+  `VENDOR_ID` INT NOT NULL,
+  `VENDOR_NAME` VARCHAR(45) NULL,
+  `VENDOR_EMAIL` VARCHAR(45) NULL,
+  `VENDOR_CONTACT` VARCHAR(45) NULL,
+  `VENDOR_ADDRESS` VARCHAR(100) NULL,
+  `VENDOR_PASSWORD` VARCHAR(20) NULL,
+   PRIMARY KEY (`VENDOR_ID`));
+
+-- Creating Order table
+
+CREATE TABLE `mlp323`.`order` (
+  `order_id` INT NOT NULL,
+  `food_id` INT NULL,
+  `vendor_id` INT NULL,
+  `no_of_items` INT NULL,
+  `order_date_time` TIMESTAMP(6) NULL,
+  `amount_to_be_paid` DOUBLE NULL,
+  `token_number` INT NULL,
+  `status` VARCHAR(45) NULL,
+  `comment` VARCHAR(145) NULL,
+  PRIMARY KEY (`order_id`));
+
+
+-- creating menu table
+CREATE TABLE `mlp323`.`menu` (
+  `MENU_FOOD_ID` INT(11) NOT NULL,
+  `MENU_FOOD_NAME` VARCHAR(45) NULL,
+  `MENU_FOOD_PRICE` DOUBLE NULL,
+  PRIMARY KEY (`MENU_FOOD_ID`));

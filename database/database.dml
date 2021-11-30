@@ -1,0 +1,10 @@
+-- change the database to your team id
+use MLP323;
+
+
+
+INSERT INTO `mlp323`.`customer` (`CUST_ID`, `CUST_NAME`, `CUST_EMAIL`, `CUST_ADDRESS`, `CUST_MOBILENO`, `CUST_PASSWORD`, `CUST_WALLET_NAME`, `CUST_WALLET_AMOUNT`) VALUES ('100', 'abcd', 'abcd@gmail.com', 'xyzxyz', '8793579123', 'aaa', 'bbb', '200');
+
+INSERT INTO `mlp323`.`foodmenu` (`FOOD_ID`, `FOOD_NAME`, `FOOD_QTY`, `FOOD_PRICE`, `VENDOR_ID`) VALUES ('1', 'biriyani', '2', '300', '123');
+INSERT INTO `mlp323`.`vendor` (`VENDOR_ID`, `VENDOR_NAME`, `VENDOR_EMAIL`, `VENDOR_CONTACT`, `VENDOR_ADDRESS`, `VENDOR_PASSWORD`) VALUES ('201', 'ven', 'ven@gmail.com', '9824515980', 'ddddddd', 'zzzz');
+INSERT INTO `mlp323`.`order` (`order_id`, `food_id`, `vendor_id`, `no_of_items`, `order_date_time`, `amount_to_be_paid`, `token_number`, `status`, `comment`) VALUES ('300', '123', '435', '2', '2021-01-01 00:00:02', '300', '12344', 'deliver', 'good');
