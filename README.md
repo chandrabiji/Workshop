@@ -1,4 +1,4 @@
-# Welcome to Hexaware FTP Training Course
+# Welcome to Ojas FTP Training Course
 
   Please take a look at the following files
 
