@@ -50,7 +50,7 @@ The objective of week #2 is to get the cli working with showing menu details - f
   * https://docs.oracle.com/javase/tutorial/getStarted/index.html
   * https://docs.oracle.com/javase/tutorial/java/index.html
    
-### JDBI
+### JDBI / Hibernate ORM Tool
   * http://jdbi.org/#_declarative_api
   * http://jdbi.org/#_sql_objects
   
@@ -75,7 +75,7 @@ The objective of week #2 is to get the cli working with showing menu details - f
   
 ## Go-Deep
 
-### Java
+### Java / Spring / Spring Boot / Micro Services
   * https://www.udemy.com/java-tutorial/
   * https://www.javatpoint.com/java-tutorial
 
