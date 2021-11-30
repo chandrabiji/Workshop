@@ -91,7 +91,7 @@
 ### Create a pull request and get it merged
    * A pull request is the primary way you and other repository users can review, comment on, and merge code changes from one branch to another. You can use pull requests to collaboratively review code changes for minor changes or fixes, major feature additions, or new versions of your released software. 
 
-   * In your browser, go to "https://635681506020.signin.aws.amazon.com/console" and select the repositoty and then click  "pull requests" link 
+   * In your browser, go to "https://000000000000.signin.aws.amazon.com/console" and select the repositoty and then click  "pull requests" link 
 
    * select desination branch and source branch (pull requst branch) and click compare button 
    * If any change is required, the reviewer add comments and save
